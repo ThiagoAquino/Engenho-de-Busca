@@ -1,0 +1,4 @@
+- Implementar exclusão de links de anúncio
+- Descobrir o que o search do crawler deve retornar (links de fronteira, links das páginas que contém informação útil, todos os links visitados com metadados, informação estruturada ou alguma outra informação)
+- Descobrir se pode usar .jar externos
+- 
