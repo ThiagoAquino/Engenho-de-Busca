@@ -1,0 +1,154 @@
+J48 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++	
+	Time taken to build model: 0.31 seconds
+	
+	=== Evaluation on test set ===
+	
+	Time taken to test model on supplied test set: 0.03 seconds
+	
+	=== Summary ===
+	
+	Correctly Classified Instances          57               64.7727 %
+	Incorrectly Classified Instances        31               35.2273 %
+	Kappa statistic                          0.2955
+	Mean absolute error                      0.3579
+	Root mean squared error                  0.5938
+	Relative absolute error                 71.5756 %
+	Root relative squared error            118.7566 %
+	Total Number of Instances               88     
+	
+	=== Detailed Accuracy By Class ===
+	
+	                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+	                 0,977    0,682    0,589      0,977    0,735      0,393    0,625     0,571     Negative
+	                 0,318    0,023    0,933      0,318    0,475      0,393    0,625     0,641     Positive
+	Weighted Avg.    0,648    0,352    0,761      0,648    0,605      0,393    0,625     0,606     
+	
+	=== Confusion Matrix ===
+	
+	  a  b   <-- classified as
+	 43  1 |  a = Negative
+	 30 14 |  b = Positive
+
+NaiveBayes ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++	
+	Time taken to build model: 0.23 seconds
+	
+	=== Evaluation on test set ===
+	
+	Time taken to test model on supplied test set: 0.37 seconds
+	
+	=== Summary ===
+	
+	Correctly Classified Instances          85               96.5909 %
+	Incorrectly Classified Instances         3                3.4091 %
+	Kappa statistic                          0.9318
+	Mean absolute error                      0.0341
+	Root mean squared error                  0.1846
+	Relative absolute error                  6.8182 %
+	Root relative squared error             36.9274 %
+	Total Number of Instances               88     
+	
+	=== Detailed Accuracy By Class ===
+	
+	                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+	                 1,000    0,068    0,936      1,000    0,967      0,934    0,989     0,978     Negative
+	                 0,932    0,000    1,000      0,932    0,965      0,934    0,996     0,997     Positive
+	Weighted Avg.    0,966    0,034    0,968      0,966    0,966      0,934    0,993     0,987     
+	
+	=== Confusion Matrix ===
+	
+	  a  b   <-- classified as
+	 44  0 |  a = Negative
+	  3 41 |  b = Positive
+
+Logistic ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	Time taken to build model: 9.97 seconds
+	
+	=== Evaluation on test set ===
+	
+	Time taken to test model on supplied test set: 0.06 seconds
+	
+	=== Summary ===
+	
+	Correctly Classified Instances          81               92.0455 %
+	Incorrectly Classified Instances         7                7.9545 %
+	Kappa statistic                          0.8409
+	Mean absolute error                      0.0787
+	Root mean squared error                  0.2703
+	Relative absolute error                 15.7455 %
+	Root relative squared error             54.0582 %
+	Total Number of Instances               88     
+	
+	=== Detailed Accuracy By Class ===
+	
+	                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+	                 1,000    0,159    0,863      1,000    0,926      0,852    0,977     0,938     Negative
+	                 0,841    0,000    1,000      0,841    0,914      0,852    0,976     0,987     Positive
+	Weighted Avg.    0,920    0,080    0,931      0,920    0,920      0,852    0,976     0,963     
+	
+	=== Confusion Matrix ===
+	
+	  a  b   <-- classified as
+	 44  0 |  a = Negative
+	  7 37 |  b = Positive
+	
+SVM +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	Time taken to build model: 0.44 seconds
+	
+	=== Evaluation on test set ===
+	
+	Time taken to test model on supplied test set: 0.04 seconds
+	
+	=== Summary ===
+	
+	Correctly Classified Instances          81               92.0455 %
+	Incorrectly Classified Instances         7                7.9545 %
+	Kappa statistic                          0.8409
+	Mean absolute error                      0.0795
+	Root mean squared error                  0.282 
+	Relative absolute error                 15.9091 %
+	Root relative squared error             56.4076 %
+	Total Number of Instances               88     
+	
+	=== Detailed Accuracy By Class ===
+	
+	                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+	                 1,000    0,159    0,863      1,000    0,926      0,852    0,920     0,863     Negative
+	                 0,841    0,000    1,000      0,841    0,914      0,852    0,920     0,920     Positive
+	Weighted Avg.    0,920    0,080    0,931      0,920    0,920      0,852    0,920     0,892     
+	
+	=== Confusion Matrix ===
+	
+	  a  b   <-- classified as
+	 44  0 |  a = Negative
+	  7 37 |  b = Positive
+	  
+MLP (10N)++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++	 
+	Time taken to build model: 39.68 seconds
+	
+	=== Evaluation on test set ===
+	
+	Time taken to test model on supplied test set: 0.12 seconds
+	
+	=== Summary ===
+	
+	Correctly Classified Instances          67               76.1364 %
+	Incorrectly Classified Instances        21               23.8636 %
+	Kappa statistic                          0.5227
+	Mean absolute error                      0.2106
+	Root mean squared error                  0.4233
+	Relative absolute error                 42.1157 %
+	Root relative squared error             84.6563 %
+	Total Number of Instances               88     
+	
+	=== Detailed Accuracy By Class ===
+	
+	                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+	                 1,000    0,477    0,677      1,000    0,807      0,595    0,996     0,996     Negative
+	                 0,523    0,000    1,000      0,523    0,687      0,595    0,996     0,997     Positive
+	Weighted Avg.    0,761    0,239    0,838      0,761    0,747      0,595    0,996     0,996     
+	
+	=== Confusion Matrix ===
+	
+	  a  b   <-- classified as
+	 44  0 |  a = Negative
+	 21 23 |  b = Positive
